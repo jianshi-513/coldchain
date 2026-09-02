@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.deps/
+data/*.db*
+reports/*.json
+reports/*.csv
+*.log
+
