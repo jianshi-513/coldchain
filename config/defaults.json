@@ -1,0 +1,9 @@
+{
+  "simulation": {"start_time": "2026-09-01T08:00:00", "tick_minutes": 1, "sample_interval_minutes": 5, "random_seed": 12345},
+  "environment": {"base_temperature": 30.0, "humidity": 72.0, "weather": "晴", "daily_amplitude": 6.0},
+  "thermal": {"zone_exchange": 0.006, "truck_exchange": 0.012, "door_open_multiplier": 9.0, "cargo_surface_factor": 0.020, "cargo_core_factor": 0.004, "cooling_rate": 0.95},
+  "refrigeration": {"hysteresis_high": 2.0, "hysteresis_low": -1.0, "energy_kwh_per_minute": 0.055, "defrost_interval_minutes": 480, "defrost_duration_minutes": 20},
+  "quality": {"mild_loss_per_degree_minute": 0.0008, "severe_multiplier": 3.5, "quarantine_threshold": 40.0},
+  "operations": {"picking_minutes": 12, "loading_minutes": 18, "unloading_minutes": 12, "cleaning_minutes": 15, "disinfection_minutes": 20},
+  "costs": {"energy_per_kwh": 0.82, "labor_per_minute": 0.45, "loss_per_quality_point_kg": 0.08}
+}
