@@ -1,0 +1,10 @@
+{
+  "disclaimer": "以下为教学仿真的企业 SOP 示例，不宣称等同或自动符合国家标准。",
+  "high_risk_categories": ["RAW_MEAT", "RAW_POULTRY", "RAW_SEAFOOD"],
+  "sensitive_categories": ["DAIRY", "READY_TO_EAT"],
+  "contaminating_package_states": ["DAMAGED", "LEAKING", "EXPOSED"],
+  "raw_to_sensitive": "PROHIBIT_UNLESS_OVERRIDE",
+  "visible_soil_requires_clean_before_disinfect": true,
+  "forced_operation_risk_transfer": 0.65
+}
+
